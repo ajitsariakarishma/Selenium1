@@ -29,7 +29,7 @@ public class EmailFriend {
         driver.findElement(By.className("ico-login")).click();
 
         //enter valid email id
-        driver.findElement(By.id("Email")).sendKeys("Testtest4@gmail.com");
+        driver.findElement(By.id("Email")).sendKeys("Testtest@gmail.com");
 
         //enter valid password
         driver.findElement(By.id("Password")).sendKeys("london26");
@@ -55,7 +55,7 @@ public class EmailFriend {
         //click on send email button
         driver.findElement(By.xpath("//input[@value='Send email']")).click();
 
-        driver.close();
+        //driver.close();
 
         // driver.findElement()
 
