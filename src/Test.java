@@ -34,7 +34,7 @@ public class Test {
         driver.findElement(By.xpath("//input[@name='LastName']")).sendKeys("Patel");
 
         //enter email
-        driver.findElement(By.name("Email")).sendKeys("Testtest4@gmail.com");
+        driver.findElement(By.name("Email")).sendKeys("Testtest6@gmail.com");
 
         //enter password
         driver.findElement(By.id("Password")).sendKeys("london26");
@@ -53,8 +53,8 @@ public class Test {
         //trying to view the confirmation message but unable to do so, plz assist
 
 
-         //driver.wait;
-        //close the driver
+
+       //close the driver
         driver.close();
 
 
